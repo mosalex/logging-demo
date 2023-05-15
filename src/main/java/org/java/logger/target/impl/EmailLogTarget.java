@@ -17,7 +17,7 @@ public class EmailLogTarget implements LogTarget {
     public void log(LogLevel level, String message) {
         System.out.print("Sending emails to: ");
         Arrays.stream(emailList).forEach(System.out::print);
-        System.out.print("with: ");
+        System.out.print(" with: ");
         System.out.println("[" + level.toString() + "] " + message);
     }
 }

@@ -19,7 +19,7 @@ import java.util.Properties;
 public class Logger {
 
 
-    private static final String CONFIG_FILE_PATH = "classpath:config.properties";
+    private static final String CONFIG_FILE_PATH = "config.properties";
 
     private static final String TARGETS_LIST_KEY = "targets";
     private static final String EMAILS_LIST_KEY = "target.email.list";
